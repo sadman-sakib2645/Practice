@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    vertical-align: middle;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    text-decoration: none;
+}
+
+/* ===========================
+common css ends
+============================ */
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-conteinar{
+    width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(158, 158, 202);
+}
+
+h2{
+    color: blueviolet;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    outline: none;
+    resize: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+p{
+    text-transform: capitalize;
+    color: coral;
+    font-size: 25px;
+}
+
+span{
+    font-size: 50px;
+    color: red;
+}
+
+h4{
+    text-transform: capitalize;
+    color: rgb(133, 223, 15);
+    font-size: 25px;
+}
